@@ -31,6 +31,7 @@
   - [常用在线工具网站](/ops/my_tools.md)
   - [搜索引擎](/ops/elasticsearch.md)
 - [逆向]
+  - [逆向任务](/re/task.md)
 - [开发知识库]
   - [网络通信]
     - [基础入门](/dev/network/net.md)
