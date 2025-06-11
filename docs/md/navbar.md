@@ -1,8 +1,7 @@
 * <img src="./assets/images/wechat.jpeg" alt="微信" style="zoom:8%;" />
-* 演示
-  * [:us: 演示一]()
-  * [:cn: 演示二]()
-* 开源地址
-  * [:jp: 地址一]()
-  * [地址二]()
-
+* 演示saas
+  * [saas端](http://47.100.204.55:50006/login/)
+  * [企业端](http://47.100.204.55:50007/login)
+* 考试系统
+  * [后台端](http://47.121.206.33:50011/admin/index.html#/login)
+  * [考试端](http://47.121.206.33:50011/student/index.html#/login)
