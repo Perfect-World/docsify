@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" c  ontent="IE=edge,chrome=1" />
+  <meta name="description" content="wencong">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <!-- 收藏用logo图标 -->
+  <link rel="bookmark" type="image/x-icon" href="./assets/images/favicon.ico" />
+  <!-- 网站显示页logo图标 -->
+  <link rel="shortcut icon" href="./assets/images/favicon.ico">
+  <link rel="stylesheet" href="assets/css/vue.css">
+  <link rel="stylesheet" href="assets/css/sidebar.min.css" />
+  <link rel="stylesheet" href="assets/css/sidebar-folder.min.css" />
+  <link rel="stylesheet" href="assets/css/prism.min.css" />
+  <style type="text/css">
+    .search { margin-bottom: 10px; }
+    .cover-main p img { zoom: 60%; }
+    /* 自定义宽度 */
+    .sidebar { width: 250px; }
+    /* 调整字体大小 */
+    .sidebar-nav > ul > li, .sidebar-nav > ul > li > ul > li { font-size: 18px; }
+  </style>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '文聪学习笔记',
+      repo: 'https://gitee.com/langyabang_wencong/docsify/pages',
+      relativePath: true,
+      coverpage: 'md/coverpage.md', // 启用封面页。开启后是加载 _coverpage.md 文件，也可以自定义文件名。
+      loadSidebar: 'md/sidebar.md', // 设置为 true 后会加载 _sidebar.md 文件，加载自定义侧边栏。
+      loadNavbar: 'md/navbar.md', // 设置为 true 后会加载 _navbar.md 文件，小屏设备下合并导航栏到侧边栏。
+      autoHeader: true, // 同时设置 loadSidebar 和 autoHeader 后，可以根据 _sidebar.md 的内容自动为每个页面增加标题。
+      auto2top: true, // 切换页面后是否自动跳转到页面顶部。默认值: false
+      logo: './assets/images/wen.png', // 在侧边栏中出现的网站图标，你可以使用CSS来更改大小
+      subMaxLevel: 3, // 默认情况下会抓取文档中所有标题渲染成目录，可配置最大支持渲染的标题层级。
+      alias: {
+        '/.*/sidebar.md': 'md/sidebar.md', // See #301
+      },
+      notFoundPage: 'md/my404.md', // 在找不到指定页面时加载_404.md:
+      search: {
+        noData: {
+          '/': '没有结果!'
+        },
+        paths: 'auto',
+        placeholder: {
+          '/': '搜索'
+        }
+      },
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="assets/js/docsify4.js"></script>
+  <!-- 自定义侧边栏 -->
+  <script src="assets/js/docsify-sidebar-collapse.min.js"></script>
+  <!-- 全文搜索 -->
+  <script src="assets/js/search.min.js"></script>
+  <!-- 图片缩放 -->
+  <script src="assets/js/zoom-image.min.js"></script>
+  <!-- 复制到剪贴板 -->
+  <script src="assets/js/docsify-copy-code.js"></script>
+  <!-- 代码高亮 -->
+  <script src="assets/js/prism.min.js"></script>
+</body>
+
+</html>
