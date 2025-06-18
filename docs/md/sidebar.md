@@ -32,7 +32,12 @@
   - [搜索引擎](/ops/elasticsearch.md)
 - [逆向]
   - [逆向任务](/re/task.md)
+  - [环境](/re/environment.md)
+  - [操作](/re/operation.md)
+  - [执行目录](/re/performDirectory.md)
 - [开发知识库]
   - [网络通信]
     - [基础入门](/dev/network/net.md)
     - [请求协议](/dev/network/http-https.md)
+- [项目]
+  - [技术栈选型](/project/techstack.md)
