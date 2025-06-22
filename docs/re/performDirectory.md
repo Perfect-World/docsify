@@ -2,6 +2,8 @@
 
 [脚本](./js/frida_script.js)
 
+![image-20250622160949772](./images/image-20250622160949772.png)
+
 ```bash
 # 是否连接上手机
 idevice_id -l
