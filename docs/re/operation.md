@@ -13,6 +13,8 @@ idevice_id -l # wencong mac usb 连接 iphone后  00008101-000128383651001E
 
 获取设备的进程列表
 
+/Users/wencong/.local/bin/frida-ps 
+
 `-U`连接到 `USB` 设备
 
 -D`如果当前有多台 `USB` 设备，可以使用该参数指定设备的 `UDID`（`frida-ls-devices` 列出的那些 `id`）`
@@ -24,6 +26,8 @@ idevice_id -l # wencong mac usb 连接 iphone后  00008101-000128383651001E
 -i`显示所有已安装的应用（包括 `AppStore`安装的应用和系统应用
 
 
+
+进入程序钩子，/Users/wencong/.local/bin/frida -U -N com.mobilityware.BlackJackFreeAA
 
 
 
