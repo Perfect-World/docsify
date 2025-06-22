@@ -1,6 +1,4 @@
-执行目录
-
-
+## 获取执行目录
 
 [脚本](./js/frida_script.js)
 
@@ -24,5 +22,4 @@ const executablePath = ObjC.classes.NSBundle.mainBundle().executablePath().toStr
 console.log("可执行文件路径:", executablePath);
 
 ```
-
 
