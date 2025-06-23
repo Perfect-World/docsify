@@ -34,7 +34,22 @@
   - [逆向任务](/re/task.md)
   - [环境](/re/environment.md)
   - [操作](/re/operation.md)
-  - [执行目录](/re/performDirectory.md)
+  - [Frida查找App可执行目录](/re/performDirectory.md)
+  - [Frida查找应用的沙盒目录](/re/sandboxDirectory.md)
+  - [注入dumpdecrypted.dylib进行脱壳](/re/dumpdecryptedHulling.md)
+  - [Frida进行App脱壳](/re/fridaAPPHulling.md)
+  - [class-dump-z导出头文件](/re/classDump.md)
+  - [AppSync安装未签名的应用](/re/unsigned.md)
+  - [Frida拦截Objective-C方法/Swift函数](/re/interceptObjectiveCFunction.md)
+  - [Frida拦截器拦截C函数](/re/interceptCFunction.md)
+  - [Frida拦截sub_xxx函数](/re/interceptSubFunction.md)
+  - [Frida远程过程调用Objetive-C函数/Swift函数](/re/interceptObjectiveCCall.md)
+  - [Frida-iOS-dump脱壳](/re/fridaIOSDumpHulling.md)
+  - [开发动态库上传到DynamicLibraries目录](/re/developDynamicLibraries.md)
+  - [注入动态库使用DYLD_INSERT_LIBRARIES环境变量](/re/injectionDynamicLibraries.md)
+  - [可执行文件插入Load Command加载动态库](/re/executableFileInsertion.md)
+  - [Frida动态插入动态库或框架](/re/fridaDynamicInsertion.md)
+  
 - [开发知识库]
   - [网络通信]
     - [基础入门](/dev/network/net.md)
