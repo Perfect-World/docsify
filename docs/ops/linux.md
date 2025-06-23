@@ -112,7 +112,7 @@ ls -l /etc/passwd        # 显示/etc/passwd文件的详细信息
 
 pwd											 # 获取目前所在工作目录的绝对路径
 su root									 # 改变用户身份（切换到超级用户）
-mkdir										 # 创建目录
+mkdir	-p								 # 创建目录，-p：递归创建目录
 rm -rf testdir/					 # 强制删除某个目录及其子目录
 cp -r /mydata/tes1 /mydata/test2  # 用于拷贝文件，例如将test1目录复制到test2目录
 mv text.txt text2.txt 	 # 用于移动或覆盖文件
@@ -148,6 +148,8 @@ cat -n xxx.log | tail -n 10 					# 查看日志后 10 行，并显示出行号
 
 #### expect
 
+远程操作服务器命令
+
 #### netstat
 
 ```
@@ -168,5 +170,30 @@ netstat -anlp
 最后，如果要查看详细信息，使用-o参数
 
 netstat -anlp -o
+```
+
+#### 创建用户组，给用户组指定文件夹的读写权限
+
+```bash
+# 创建用户组
+sudo groupadd developers
+# 将文件夹的所有权赋予用户组，将 /mydata/project 目录的所有权赋予 root 用户和 developers 组
+sudo chown -R root:developers /data/project
+
+# 完整操作示例
+# 1. 创建用户组
+sudo groupadd developers
+# 2. 创建目标文件夹
+sudo mkdir -p /data/project
+# 3. 设置文件夹所有权
+sudo chown -R root:developers /data/project
+# 4. 设置读写权限
+sudo chmod -R g+rw /data/project
+# 5. 设置粘滞位（可选）
+sudo chmod -R g+s /data/project
+# 6. 添加用户到组
+sudo usermod -aG developers john
+# 7. 让用户重新登录以应用组变更
+su - john
 ```
 

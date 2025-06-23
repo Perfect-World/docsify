@@ -32,3 +32,6 @@ idevice_id -l # wencong mac usb 连接 iphone后  00008101-000128383651001E
 
 
 https://juejin.cn/post/7079726534096846862
+
+![image-20250623114549213](images/image-20250623114549213.png)
+
