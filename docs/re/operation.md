@@ -1,17 +1,17 @@
-操作
+## 操作
 
-检查设备连接状态
+#### 检查设备连接状态
 
 ```bash
 # 如果正确连接，会显示设备的 UDID。
 idevice_id -l # wencong mac usb 连接 iphone后  00008101-000128383651001E
 ```
 
-查看可用的设备列表
+#### 查看可用的设备列表
 
 /Users/wencong/.local/bin/frida-ls-devices
 
-获取设备的进程列表
+#### 获取设备的进程列表
 
 /Users/wencong/.local/bin/frida-ps 
 
@@ -27,11 +27,13 @@ idevice_id -l # wencong mac usb 连接 iphone后  00008101-000128383651001E
 
 
 
-进入程序钩子，/Users/wencong/.local/bin/frida -U -N com.mobilityware.BlackJackFreeAA
-
-
+进入程序钩子，注意要先打应用程序，/Users/wencong/.local/bin/frida -U -N com.mobilityware.BlackJackFreeAA
 
 https://juejin.cn/post/7079726534096846862
 
-![image-20250623114549213](images/image-20250623114549213.png)
+
+
+#### 如何判断iosapp使用哪种语言开发的
+
+
 
