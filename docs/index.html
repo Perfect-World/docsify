@@ -32,17 +32,17 @@
       name: '文聪学习笔记',
       repo: 'https://github.com/Perfect-World/docsify',
       relativePath: true,
-      coverpage: 'md/coverpage.md', // 启用封面页。开启后是加载 _coverpage.md 文件，也可以自定义文件名。
-      loadSidebar: 'md/sidebar.md', // 设置为 true 后会加载 _sidebar.md 文件，加载自定义侧边栏。
-      loadNavbar: 'md/navbar.md', // 设置为 true 后会加载 _navbar.md 文件，小屏设备下合并导航栏到侧边栏。
+      coverpage: 'config/coverpage.md', // 启用封面页。开启后是加载 _coverpage.md 文件，也可以自定义文件名。
+      loadSidebar: 'config/sidebar.md', // 设置为 true 后会加载 _sidebar.md 文件，加载自定义侧边栏。
+      loadNavbar: 'config/navbar.md', // 设置为 true 后会加载 _navbar.md 文件，小屏设备下合并导航栏到侧边栏。
       autoHeader: true, // 同时设置 loadSidebar 和 autoHeader 后，可以根据 _sidebar.md 的内容自动为每个页面增加标题。
       auto2top: true, // 切换页面后是否自动跳转到页面顶部。默认值: false
       logo: './assets/images/wen.png', // 在侧边栏中出现的网站图标，你可以使用CSS来更改大小
       subMaxLevel: 3, // 默认情况下会抓取文档中所有标题渲染成目录，可配置最大支持渲染的标题层级。
       alias: {
-        '/.*/sidebar.md': 'md/sidebar.md', // See #301
+        '/.*/sidebar.md': 'config/sidebar.md', // See #301
       },
-      notFoundPage: 'md/my404.md', // 在找不到指定页面时加载_404.md:
+      notFoundPage: 'config/my404.md', // 在找不到指定页面时加载_404.md:
       search: {
         noData: {
           '/': '没有结果!'

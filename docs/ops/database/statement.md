@@ -4,7 +4,11 @@
 
 ## 常用复杂 sql 语句
 
+- 查询表名和注释
 
+```
+SELECT TABLE_NAME AS `Table Name`, TABLE_COMMENT AS `Comment` FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'admin_java';  -- 替换为你的数据库名
+```
 
 - 分组取第一条
 

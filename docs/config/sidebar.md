@@ -1,5 +1,6 @@
 - [序章]
   - [介绍](README.md)
+  - [音乐下载](musicDownload.md)
 - [运维]
   - [数据库mysql]
     - [常用mysql语句](/ops/database/statement.md)
