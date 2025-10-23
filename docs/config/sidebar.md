@@ -2,10 +2,9 @@
   - [介绍](README.md)
   - [音乐下载](/temp/musicDownload.md)
   - [微信双开](/temp/wechatCopy.md)
-- [运维]
-  - [课程]
-    - [springboot_mybatis](/courses/springboot_mybatis.md)
-    - [sql_procedure](/courses/sql_procedure.md)
+- [课程]
+  - [springboot_mybatis](/courses/springboot_mybatis.md)
+  - [sql_procedure](/courses/sql_procedure.md)
 - [运维]
   - [数据库mysql]
     - [常用mysql语句](/ops/database/statement.md)
