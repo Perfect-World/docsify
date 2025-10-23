@@ -3,6 +3,10 @@
   - [音乐下载](/temp/musicDownload.md)
   - [微信双开](/temp/wechatCopy.md)
 - [运维]
+  - [课程]
+    - [springboot_mybatis](/temp/springboot_mybatis.md)
+    - [sql_procedure](/temp/sql_procedure.md)
+- [运维]
   - [数据库mysql]
     - [常用mysql语句](/ops/database/statement.md)
   - [容器docker]
