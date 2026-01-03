@@ -40,6 +40,8 @@ pip3 install frida frida-tools
 /usr/local/python3/bin/pip3 install frida frida-tools
 # 更新最新版本 2025年6月20日 Frida 17.2.4 发布
 /usr/local/python3/bin/pip3 install --upgrade frida frida-tools 
+
+/usr/local/python3/bin/pip3 uninstall frida frida-tools 
 ```
 `frida`是核心库，`frida-tools`包含了一些实用工具，如`frida-ps`（用于列出目标设备上的进程）、`frida-trace`（用于快速跟踪系统调用）等。
 

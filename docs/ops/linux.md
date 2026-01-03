@@ -91,8 +91,8 @@ systemctl reload firewalld							 	# 重新载入配置信息而不中断服务
 systemctl disable firewalld 							# 禁止服务开机自启动
 systemctl enable firewalld 								# 设置服务开机自启动
 # 开启/关闭端口
-firewall-cmd --zone=public --add-port=50001-50010:/tcp --permanent 
-firewall-cmd --zone=public --remove-port=50001-50010:/tcp --permanent 
+firewall-cmd --zone=public --add-port=50001-50010/tcp --permanent 
+firewall-cmd --zone=public --remove-port=50001-50010/tcp --permanent 
   firwall-cmd             		#是Linux提供的操作firewall的一个工具；
   –zone                     	#作用域
   –add-port=80/tcp   				#添加端口，格式为端口/通讯协议
