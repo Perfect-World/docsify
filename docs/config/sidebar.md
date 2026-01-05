@@ -6,9 +6,9 @@
   - [步骤.md](/ops/deployment/步骤.md)
   - [文件目录.md](/ops/deployment/文件目录.md)
   - [准备.md](/ops/deployment/准备.md)
-  - [docker.md](/ops/deployment/docker.md)
+  - [docker.md](/ops/deployment/Docker.md)
   - [git.md](/ops/deployment/git.md)
-  - [mysql.md](/ops/deployment/mysql.md)
+  - [mysql.md](/ops/deployment/Mysql.md)
 - [课程]
   - [springboot_mybatis](/courses/springboot_mybatis.md)
   - [sql_procedure](/courses/sql_procedure.md)
