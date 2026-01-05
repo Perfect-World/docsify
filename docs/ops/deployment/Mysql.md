@@ -3,7 +3,7 @@
 #### 配置文件
 
 ```bash
-cp /yykj/deployment/mysql-config/my.cnf /yykj/environment/mysql/conf/
+# cp /yykj/deployment/mysql-config/my.cnf /yykj/environment/mysql/conf/
 ```
 
 #### 创建容器 
@@ -30,7 +30,7 @@ docker run \
 ```bash
 # 进入容器
 docker exec -it mysql8.2 /bin/bash
-# 登录 回车键后 输入密码 #{rootPassword}
+# 登录 回车键后 输入密码 zhao_new@sina.com
 mysql -u root -p 
 # 创建数据库 新账号 赋权，限制账号对应操作数据库权限
 create database scsmp_prod;
