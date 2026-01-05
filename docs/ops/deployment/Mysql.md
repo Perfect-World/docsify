@@ -3,7 +3,7 @@
 #### 配置文件
 
 ```bash
-cp /yykj/deployment/mysql-config/my.cnf /yykj/environment/mysql-config/conf/
+cp /yykj/deployment/mysql-config/my.cnf /yykj/environment/mysql/conf/
 ```
 
 #### 创建容器 
@@ -15,12 +15,12 @@ docker run \
 --name mysql8.2 \
 --restart unless-stopped \
 -e TZ=Asia/Shanghai \
--e MYSQL_ROOT_PASSWORD=#{rootPassword} \
+-e MYSQL_ROOT_PASSWORD=zhao_new@sina.com \
 -e MYSQL_USER=wencong \
 -e MYSQL_PASSWORD=wencong863 \
--v /mydata/mysql/logs:/var/log/mysql \
--v /mydata/mysql/data:/var/lib/mysql \
--v /mydata/mysql/conf:/etc/mysql/conf.d \
+-v /yykj/environment/mysql/logs:/var/log/mysql \
+-v /yykj/environment/mysql/data:/var/lib/mysql \
+-v /yykj/environment/mysql/conf:/etc/mysql/conf.d \
 -p 0.0.0.0:50061:3306 \
 -d mysql:8.2;
 ```
@@ -48,3 +48,9 @@ show grants for 'yykj'@'%';
 ```bash
 
 ```
+
+#### 注意
+
+1.创建容器前，保证/yykj/environment/mysql/data为空
+
+2.端口号不冲突
